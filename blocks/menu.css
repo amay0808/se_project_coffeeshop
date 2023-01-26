@@ -6,3 +6,26 @@
     background-position: center;
 
 }
+.menu__title{
+max-width: 780px;
+bottom: 100px;
+}
+
+.menu__subtitle{
+
+}
+.menu__cards{
+
+}
+.card{
+
+}
+.card__title{
+
+}
+.card__list-item{
+list-style: none;
+}
+.card__list-divider{
+
+}
