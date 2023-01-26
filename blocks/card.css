@@ -1,0 +1,21 @@
+.card {
+    box-sizing: border-box  ;
+    width: 580;
+    padding: 30px 24px 54px;
+    max-width: 600px;
+}
+.card__title {
+}
+.card__list-item {
+  list-style: none;
+}
+.card__list-divider {
+  display: block;
+  min-width: 50px;
+  height: 1px;
+  background-color: #d9e7ff;
+  margin-left: 8px;
+  margin-right: 8px;
+  flex-grow: 1;
+
+}
