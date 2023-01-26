@@ -15,7 +15,10 @@ bottom: 100px;
 
 }
 .menu__cards{
-
+display: flex;
+gap: 100px;
+justify-content: space-between;
+flex-wrap: wrap;
 }
 .card{
 
@@ -27,5 +30,6 @@ bottom: 100px;
 list-style: none;
 }
 .card__list-divider{
+border-bottom: 1px solid white;
 
 }
