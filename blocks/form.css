@@ -14,7 +14,7 @@ font-family: "Inter", Arial, sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-font-height: 20px;
+height: 20px;
 margin-top: 0;
 margin-bottom: 8px;
 margin-right: auto;
@@ -58,3 +58,4 @@ height: 60px;
 	display: flex;
 	justify-content: center;
 	margin-top: 32px;
+  }
