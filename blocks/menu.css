@@ -41,5 +41,5 @@ margin: auto;
 display: flex;
 gap: 100px;
 justify-content: space-evenly;
-flex-wrap: wrap ;
+flex-wrap: wrap;
 }
