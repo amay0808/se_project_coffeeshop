@@ -1,9 +1,17 @@
 .card {
     flex-basis: calc(50% - 50px);
-    max-width: 600px;
+    width: 600px;
     list-style: none;
     padding: 0;
+    margin-top: 100px;
     
+}
+.card__list{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  color: #fff;
 }
 .card__title {
     font-family: 'Inter', Arial,sans-serif;
@@ -16,7 +24,7 @@
 
 }
 .card__list-item {
-  font-family: Noto serif;
+  font-family:"Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   line-height: 20px;
@@ -25,7 +33,7 @@
   justify-content: center;
 }
 .card__list-item:last-child{
-    margin-bottom: 0;
+    margin-bottom: 100px;
 }
 .card__list-divider {
   display: flex;
