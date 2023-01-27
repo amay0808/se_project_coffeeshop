@@ -6,7 +6,7 @@
     background-position: center;
     color: white;
     box-sizing: border-box;
-    padding-top: 100px;
+    padding: 100px;
 
 }
 .menu__title{
@@ -35,7 +35,6 @@ margin: auto;
     justify-content: center;
     text-align: center;
     margin: auto;
-    margin-bottom: 100px;
     padding-top: 24px;
 }
 .menu__cards{
