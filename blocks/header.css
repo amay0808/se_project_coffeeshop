@@ -76,13 +76,18 @@ margin-top: auto;
   line-height: 20px;
 }
 .address-container {
+  font-family: "Inter,Ariel,sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   position: absolute;
   bottom: 0;
   right: 0;
   margin: 40px 80px;
 }
 .header__hours{
-  font-family: Inter;
+  font-family: "Inter,Ariel,sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -91,6 +96,7 @@ margin-top: auto;
   bottom: 0;
   left: 0;
   margin: 40px 80px;
+}
   
   
-      
+    
