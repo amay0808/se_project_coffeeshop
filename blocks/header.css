@@ -57,17 +57,6 @@
   z-index: 2;
   position: relative;
 }
-.header__footer{
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-margin-bottom: 40px;
-display: flex;
-justify-content: space-between;
-margin-top: auto;
-  }
 .header__paragraph{
   font-family: Inter;
   font-style: normal;
