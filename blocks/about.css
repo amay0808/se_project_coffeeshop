@@ -25,11 +25,9 @@
 }
 
 .about__content {
-	width: 660px;
+	max-width: 660px;
 	margin-top: 119px;
 	margin-bottom: 173px;
-    margin-right: 80px;
-    gap: 20px;
     font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal;
     font-weight: normal;
