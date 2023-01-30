@@ -14,7 +14,7 @@
   padding-top: 30px;
   padding-left: 80px;
   padding-right: 80px;
-  /*padding-bottom: 40px;*/
+
   
 }
 
@@ -23,8 +23,6 @@
 .header__title {
   position: relative;
   max-width: 729px;
-  /*left: 80px;*/
-  /*top: 202px;*/
   font-style: normal;
   font-weight:500;
   font-size: 60px;
@@ -39,8 +37,6 @@
   line-height: 30px;
   max-width: 683px;
   position: relative;
-  /*margin-top:230px;*/
-  /*left: 80px;*/
   z-index: 2;
   
 }
@@ -94,10 +90,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f ;
-  /*position: absolute;*/
-  /*bottom: 0;
-  left: 0;
-  /*margin: 40px 80px;*/
   
 }
 .header__paragraph{
