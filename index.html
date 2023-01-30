@@ -105,24 +105,39 @@
              
                
 </div>
-            </section>
-            <section class="reservation" id="book-a-table">
-              <h2 class="reservation__tittle">Book a table</h2>
-              <form class="reservation__form form">
-                <fieldset class="form__fieldset">
-                  <label class="form__label">Name*</label>
-                <input type="text" class="form__input" id="name" placeholder="Name Surname" required>
-              <label class="form__label">Number of guests*</label>
-            <input type="number" class="form__input" id="number-of-guest" placeholder="1-8" min="1" max="8" required>
-           <label class="form__label">Date & time*</label>
-          <input type="datetime-local" class="form__input" id="date-and-time" required>
-          <label class="form__label">Your email*</label>
-          <input type="email" required class="form__input" id="your-email" placeholder="email@email.com">
-          <button class="form__button" type="submit">Book a table</button>
-          <label class="form__label"> <input type="checkbox" class="form__checkbox" name="terms-of-use" id="terms-of-use">I agree with terms of use</label>
-        </fieldset>
-      </form>
-                 </section>
+<section class="reservation" id="book-a-table"> 
+
+  <h2 class="reservation__tittle">Book a table</h2> 
+
+  <form class="reservation__form form"> 
+
+    <fieldset class="form__fieldset"> 
+
+      <label class="form__label" for="name">Name*</label> 
+      <input type="text" class="form__input" id="name" placeholder="Name Surname" required> 
+
+      <label class="form__label" for="number-of-guests">Number of guests*</label> 
+      <input type="number" class="form__input" id="number-of-guests" placeholder="1-8" min="1" max="8" required> 
+
+      <label class="form__label" for="date-and-time">Date & time*</label> 
+      <input type="datetime-local" class="form__input" id="date-and-time" required> 
+
+      <label class="form__label" for="your-email">Your email*</label> 
+      <input type="email" required class="form__input" id="your-email" placeholder="email@email.com"> 
+
+      <button class="form__button" type="submit">Book a table</button> 
+
+      <label class="form__label"> 
+        <input type="checkbox" class="form__checkbox" name="terms-of-use" id="terms-of-use">
+        I agree with terms of use
+      </label> 
+
+    </fieldset> 
+
+  </form> 
+
+</section>
+
                  <section class="about" id="contacts">
                   <h2 class="about__title">About the coffee shop</h2>
                   <div class="about__content">
@@ -168,6 +183,5 @@
             <p class="footer__copyright">&copy; 2022 Adrian Mayfield</p>
             </footer>
           </div>   
-         
 </body>
 </html>
