@@ -25,10 +25,9 @@
   font-weight:500;
   font-size: 60px;
   line-height: 72px;
-  margin-top: 0; 
-  margin-bottom: 0;
   z-index: 2; 
-  margin-left: 25px;
+  margin: 0 0 0 50px;
+
 }
 .header__description{
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -37,8 +36,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-  margin-left: 25px;
-  margin: 0; 
+  margin: 28px 0 0 50px;
   padding: 0; 
   z-index: 2;
 
@@ -60,7 +58,6 @@
   display: block;
   line-height: 72px;
   color: #2F80ED;
-  margin-left: 25px;
 }
 
 .header__footer{
