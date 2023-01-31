@@ -12,16 +12,14 @@
   flex-direction: column;
   box-sizing: border-box;
   padding-top: 30px;
-  padding-left: 80px;
+  padding-left: 30px;
   padding-right: 80px;
-
-  
 }
 
 
 
 .header__title {
-  position: relative;
+  /*position: relative;*/
   max-width: 729px;
   font-style: normal;
   font-weight:500;
@@ -30,6 +28,7 @@
   margin-top: 0; 
   margin-bottom: 0;
   z-index: 2; 
+  margin-left: 25px;
 }
 .header__description{
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -38,13 +37,11 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-  position: relative;
+  margin-left: 25px;
   margin: 0; 
   padding: 0; 
-  border: 0; 
-  outline: 0; 
-  vertical-align: baseline; 
   z-index: 2;
+
   
 }
 
@@ -63,7 +60,7 @@
   display: block;
   line-height: 72px;
   color: #2F80ED;
-  position: relative;
+  margin-left: 25px;
 }
 
 .header__footer{
@@ -81,6 +78,7 @@
 }
 
 .header__paragraph{
+  font-family: 'Inter', Arial, sans-serif;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
