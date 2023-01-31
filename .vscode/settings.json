@@ -20,5 +20,5 @@
     "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
-    "files.autoSave": "onFocusChange", // save whenever you change active windows
-"editor.formatOnSave": true, // format whenever you save
+    "files.autoSave": "onFocusChange",
+"editor.formatOnSave": true, 

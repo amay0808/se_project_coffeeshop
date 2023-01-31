@@ -28,7 +28,7 @@
   font-size: 60px;
   line-height: 72px;
   margin-top: 0; 
-  margin-top: 0;
+  margin-bottom: 0;
   z-index: 2; 
 }
 .header__description{
@@ -39,8 +39,12 @@
   line-height: 30px;
   max-width: 683px;
   position: relative;
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+  outline: 0; 
+  vertical-align: baseline; 
   z-index: 2;
-  margin: 0;
   
 }
 
@@ -62,17 +66,6 @@
   position: relative;
 }
 
-/*.address-container {
-  font-family: 'Inter',Arial,sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 40px 80px;
-}*/
 .header__footer{
   font-family: 'Inter',Arial,sans-serif;
   display: flex;
@@ -86,15 +79,7 @@
   align-items: center;
 
 }
-/*.header__hours{
-  font-family: 'Inter',Arial,sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #6f6f6f;
-  
-}*/
+
 .header__paragraph{
   padding: 0;
   margin-top: 0;
